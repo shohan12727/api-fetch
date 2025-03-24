@@ -1,12 +1,12 @@
-// const person = {
-//     name:"shohan",
-//     age:20,
-//     friends: ["rohan","rakib","asa"]
-// }
+const person = {
+    name:"shohan",
+    age:20,
+    friends: ["rohan","rakib","asa"]
+}
 
-// const newPerson = JSON.stringify(person);
+const newPerson = JSON.stringify(person);
  
-// console.log (newPerson);
+console.log (newPerson);
 
 
 
