@@ -25,3 +25,20 @@ const handlePost = () => {
         console.log(date)
     })
 }
+
+
+const handlePhoto = () => {
+    fetch('https://jsonplaceholder.typicode.com/photos')
+    .then (res => res.json())
+    .then (date => {
+        console.log(date)
+    })
+}
+
+const handleToDos = () => {
+    fetch ('https://jsonplaceholder.typicode.com/todos')
+    .then (res => res.json())
+    .then (data => {
+        console.log(data)
+    })
+}
